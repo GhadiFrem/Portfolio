@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ghadi Frem — Software Developer</title>
+<meta name="description" content="Full-stack developer and CS student building software for real businesses." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- progress dots : real section index, not decoration -->
+  <nav class="dotnav" aria-label="Section navigation">
+    <button class="dot active" data-target="home" aria-label="Home"></button>
+    <button class="dot" data-target="work" aria-label="Work"></button>
+    <button class="dot" data-target="about" aria-label="About"></button>
+    <button class="dot" data-target="skills" aria-label="Skills"></button>
+    <button class="dot" data-target="contact" aria-label="Contact"></button>
+  </nav>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#home" class="mark">GF</a>
+      <div class="links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <!-- TODO: point this at your actual resume PDF once you add one -->
+      <a href="#" class="resume-btn">Resume</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="glow" id="glow"></div>
+      <p class="eyebrow-plain">Ghadi Frem</p>
+      <h1 class="hero-title">
+        <span class="line">Code that</span>
+        <span class="line">understands business.</span>
+      </h1>
+      <p class="hero-sub">
+        Full-stack developer and computer science student, building products
+        for the shops and studios I actually work with — then figuring out
+        how to make them profitable.
+      </p>
+      <a href="#work" class="scroll-cue" aria-label="Scroll to work">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section work">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <p>A few things I've shipped, broken, and shipped again.</p>
+      </div>
+
+      <div class="projects">
+
+        <article class="project" data-mesh="mesh-1">
+          <div class="project-visual">
+            <div class="device">
+              <div class="device-bar"><span></span><span></span><span></span></div>
+              <div class="device-screen mesh-1">
+                <div class="fake-row"></div>
+                <div class="fake-row short"></div>
+                <div class="fake-grid">
+                  <div></div><div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-tag">Full-stack · Booking platform</p>
+            <h3>Music Hub Lebanon</h3>
+            <p>
+              A room booking system built for a DJ and music production
+              academy — studio scheduling with real-time overlap validation,
+              an ASP.NET Core API, and a dark-themed React front end
+              students actually enjoy using.
+            </p>
+            <ul class="stack">
+              <li>ASP.NET Core</li>
+              <li>React</li>
+              <li>SQL Server</li>
+            </ul>
+            <button class="details-btn" data-open="p1">View details</button>
+          </div>
+        </article>
+
+        <article class="project reverse" data-mesh="mesh-2">
+          <div class="project-visual">
+            <div class="device">
+              <div class="device-bar"><span></span><span></span><span></span></div>
+              <div class="device-screen mesh-2">
+                <div class="fake-row"></div>
+                <div class="fake-row short"></div>
+                <div class="fake-grid">
+                  <div></div><div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <!-- TODO: replace with the real one-line summary of BIsmart -->
+            <p class="project-tag">Data · Business intelligence</p>
+            <h3>BIsmart</h3>
+            <p>
+              A business intelligence project focused on turning raw
+              operational data into decisions a small business can actually
+              act on — replace this line with what BIsmart really does.
+            </p>
+            <ul class="stack">
+              <li>SQL</li>
+              <li>Python</li>
+            </ul>
+            <button class="details-btn" data-open="p2">View details</button>
+          </div>
+        </article>
+
+        <article class="project" data-mesh="mesh-3">
+          <div class="project-visual">
+            <div class="device">
+              <div class="device-bar"><span></span><span></span><span></span></div>
+              <div class="device-screen mesh-3">
+                <div class="fake-row"></div>
+                <div class="fake-row short"></div>
+                <div class="fake-grid">
+                  <div></div><div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <!-- TODO: replace with the real one-line summary of CineSearch -->
+            <p class="project-tag">Web app · Search</p>
+            <h3>CineSearch</h3>
+            <p>
+              A movie discovery app for finding what to watch next —
+              replace this line with what CineSearch really does and how
+              it's built.
+            </p>
+            <ul class="stack">
+              <li>JavaScript</li>
+              <li>API integration</li>
+            </ul>
+            <button class="details-btn" data-open="p3">View details</button>
+          </div>
+        </article>
+
+        <article class="project reverse" data-mesh="mesh-4">
+          <div class="project-visual">
+            <div class="device">
+              <div class="device-bar"><span></span><span></span><span></span></div>
+              <div class="device-screen mesh-4">
+                <div class="fake-row"></div>
+                <div class="fake-row short"></div>
+                <div class="fake-grid">
+                  <div></div><div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-tag">Simulation · Coursework</p>
+            <h3>Crane Load-Swing Control</h3>
+            <p>
+              A Python physics simulation modeling load-swing control on a
+              crane system, with a Pygame animation layer to visualize the
+              controller working in real time.
+            </p>
+            <ul class="stack">
+              <li>Python</li>
+              <li>Pygame</li>
+              <li>Control systems</li>
+            </ul>
+            <button class="details-btn" data-open="p4">View details</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="about-grid">
+        <h2>About</h2>
+        <div class="about-copy">
+          <p>
+            I'm a third-year computer science student at the Lebanese
+            University, working full-stack across ASP.NET Core, React, and
+            SQL Server. I like projects with a real user on the other end —
+            a studio owner trying to stop double-booking a room, a shop
+            trying to understand its own numbers.
+          </p>
+          <p>
+            Outside of coursework, I work sales and customer support for
+            musical instruments and audio gear. It's given me an
+            unreasonably specific appreciation for margins, inventory, and
+            the gap between a good product and a product that actually
+            sells — which is most of why I'm drawn to data analytics and AI
+            automation now, not just writing more front end.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <h2>Tools I reach for</h2>
+        <p>Hover a group to see how it's used.</p>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-group" data-desc="APIs, data models, and the logic that keeps a booking system honest.">
+          <h3>Backend</h3>
+          <div class="pills">
+            <span>ASP.NET Core</span>
+            <span>SQL Server</span>
+            <span>Python</span>
+          </div>
+        </div>
+        <div class="skill-group" data-desc="Interfaces people actually want to open twice.">
+          <h3>Frontend</h3>
+          <div class="pills">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>HTML &amp; CSS</span>
+          </div>
+        </div>
+        <div class="skill-group" data-desc="Shipping and connecting things without babysitting them.">
+          <h3>Automation &amp; DevOps</h3>
+          <div class="pills">
+            <span>Docker</span>
+            <span>n8n</span>
+            <span>Git</span>
+          </div>
+        </div>
+        <div class="skill-group" data-desc="Where I'm putting most of my learning time right now.">
+          <h3>Currently exploring</h3>
+          <div class="pills">
+            <span>Data analytics</span>
+            <span>AI automation</span>
+            <span>E-commerce systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Let's build something.</h2>
+      <p>Open to internships, freelance work, and interesting problems.</p>
+      <!-- TODO: replace with your real email -->
+      <a href="mailto:your.email@example.com" class="mail-link">your.email@example.com</a>
+      <div class="social-row">
+        <!-- TODO: replace with your real profile links -->
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>Ghadi Frem</span>
+    <span id="year"></span>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <!-- project detail overlay -->
+  <div class="overlay" id="overlay">
+    <div class="overlay-card">
+      <button class="overlay-close" id="overlayClose" aria-label="Close">&times;</button>
+      <div class="overlay-body" id="overlayBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
