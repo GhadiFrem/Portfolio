@@ -1,288 +1,1133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ghadi Frem — Software Developer</title>
-<meta name="description" content="Full-stack developer and CS student building software for real businesses." />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ghadi Frem — Software Developer</title>
+
+  <meta
+    name="description"
+    content="Software developer and computer science graduate building software, data-driven products, and automation systems."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- progress dots : real section index, not decoration -->
+  <!-- ============================================
+       DOT NAVIGATION
+       ============================================ -->
+
   <nav class="dotnav" aria-label="Section navigation">
-    <button class="dot active" data-target="home" aria-label="Home"></button>
-    <button class="dot" data-target="work" aria-label="Work"></button>
-    <button class="dot" data-target="about" aria-label="About"></button>
-    <button class="dot" data-target="skills" aria-label="Skills"></button>
-    <button class="dot" data-target="contact" aria-label="Contact"></button>
+
+    <button
+      class="dot active"
+      data-target="home"
+      aria-label="Home">
+    </button>
+
+    <button
+      class="dot"
+      data-target="about"
+      aria-label="About">
+    </button>
+
+    <button
+      class="dot"
+      data-target="experience"
+      aria-label="Experience">
+    </button>
+
+    <button
+      class="dot"
+      data-target="education"
+      aria-label="Education">
+    </button>
+
+    <button
+      class="dot"
+      data-target="work"
+      aria-label="Projects">
+    </button>
+
+    <button
+      class="dot"
+      data-target="skills"
+      aria-label="Skills">
+    </button>
+
+    <button
+      class="dot"
+      data-target="contact"
+      aria-label="Contact">
+    </button>
+
   </nav>
 
+
+  <!-- ============================================
+       TOP NAVIGATION
+       ============================================ -->
+
   <header class="topbar">
+
     <div class="topbar-inner">
+
       <a href="#home" class="mark">GF</a>
+
       <div class="links">
-        <a href="#work">Work</a>
+
         <a href="#about">About</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#work">Projects</a>
+
         <a href="#skills">Skills</a>
+
         <a href="#contact">Contact</a>
+
       </div>
-      <!-- TODO: point this at your actual resume PDF once you add one -->
-      <a href="#" class="resume-btn">Resume</a>
+
+      <!-- Replace # with your actual resume PDF -->
+      <a href="#" class="resume-btn">
+        Resume
+      </a>
+
     </div>
+
   </header>
+
 
   <main>
 
-    <!-- HERO -->
-    <section id="home" class="section hero">
-      <div class="glow" id="glow"></div>
-      <p class="eyebrow-plain">Ghadi Frem</p>
-      <h1 class="hero-title">
-        <span class="line">Code that</span>
-        <span class="line">understands business.</span>
-      </h1>
-      <p class="hero-sub">
-        Full-stack developer and computer science student, building products
-        for the shops and studios I actually work with — then figuring out
-        how to make them profitable.
-      </p>
-      <a href="#work" class="scroll-cue" aria-label="Scroll to work">
-        <span></span>
-      </a>
+
+
+<!-- ============================================
+     HERO
+     ============================================ -->
+
+<section id="home" class="section hero">
+
+  <!-- Animated background -->
+  <div class="hero-animation" aria-hidden="true">
+
+    <div class="orbit orbit-1"></div>
+    <div class="orbit orbit-2"></div>
+    <div class="orbit orbit-3"></div>
+
+    <div class="floating-dot dot-1"></div>
+    <div class="floating-dot dot-2"></div>
+    <div class="floating-dot dot-3"></div>
+    <div class="floating-dot dot-4"></div>
+
+  </div>
+
+  <div class="glow" id="glow"></div>
+
+  <p class="eyebrow-plain">
+    Ghadi Frem
+  </p>
+
+  <h1 class="hero-title">
+
+    <span class="line">
+      Code that
+    </span>
+
+    <span class="line">
+      understands business.
+    </span>
+
+  </h1>
+
+  <p class="hero-sub">
+    Software developer and computer science graduate building
+    practical products, data-driven systems, and automation solutions.
+  </p>
+
+  <a
+    href="#about"
+    class="scroll-cue"
+    aria-label="Scroll to about"
+  >
+    <span></span>
+  </a>
+
+</section>
+```
+
+
+
+    <!-- ============================================
+         ABOUT
+         ============================================ -->
+
+    <section id="about" class="section about">
+
+      <div class="about-grid">
+
+        <div class="about-profile">
+
+          <!--
+            Put your image here:
+
+            images/profile.jpg
+
+            Example folder structure:
+
+            portfolio/
+            ├── index.html
+            ├── style.css
+            ├── script.js
+            └── images/
+                └── profile.jpg
+          -->
+
+          <div class="profile-frame">
+
+            <img
+              src="IMG_5699.jpg"
+              alt="Ghadi Frem"
+              class="profile-image"
+            />
+
+          </div>
+
+        </div>
+
+
+        <div class="about-copy">
+
+          <p class="section-label">
+            About me
+          </p>
+
+          <h2>
+            Building software with a business mindset.
+          </h2>
+
+          <p>
+            I'm Ghadi Frem, a computer science graduate interested in
+            software development, data analytics, AI automation, and
+            building digital products that solve real-world problems.
+          </p>
+
+          <p>
+            I enjoy working across the stack, from designing interfaces
+            and building APIs to working with databases, automation,
+            and data. My goal is to combine technical skills with an
+            understanding of how businesses actually operate.
+          </p>
+
+          <p>
+            Outside of software, I work with musical instruments and
+            audio equipment, which has given me practical experience
+            with customers, products, sales, inventory, and business
+            operations.
+          </p>
+
+        </div>
+
+      </div>
+
     </section>
 
-    <!-- WORK -->
-    <section id="work" class="section work">
+
+    <!-- ============================================
+         WORK EXPERIENCE
+         ============================================ -->
+
+    <section id="experience" class="section experience">
+
       <div class="section-head">
-        <h2>Selected work</h2>
-        <p>A few things I've shipped, broken, and shipped again.</p>
+
+        <p class="section-label">
+          Career
+        </p>
+
+        <h2>
+          Work Experience
+        </h2>
+
+        <p>
+          Experience working with customers, products, technology,
+          and real-world business operations.
+        </p>
+
       </div>
+
+
+      <div class="timeline">
+
+
+        <!-- EXPERIENCE 1 -->
+
+        <article class="timeline-item reveal-item">
+
+          <div class="timeline-date">
+            2026 — Present
+          </div>
+
+          <div class="timeline-line">
+            <span></span>
+          </div>
+
+          <div class="timeline-content">
+
+            <p class="experience-type">
+              Sales · Customer Support
+            </p>
+
+            <h3>
+              Music Store
+            </h3>
+
+            <p class="experience-company">
+              Lebanon
+            </p>
+
+            <p>
+              Working with customers and helping them select
+              musical instruments, audio equipment, and accessories
+              according to their needs and budget.
+            </p>
+
+            <ul class="experience-list">
+
+              <li>
+                Assisted customers with guitars, audio equipment,
+                microphones, keyboards, and other music gear.
+              </li>
+
+              <li>
+                Provided product information and helped customers
+                compare equipment.
+              </li>
+
+              <li>
+                Worked with product inventory and availability.
+              </li>
+
+              <li>
+                Developed practical experience in sales,
+                customer support, and retail operations.
+              </li>
+
+            </ul>
+
+          </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 2 -->
+
+        <article class="timeline-item reveal-item">
+
+          <div class="timeline-date">
+            2026
+          </div>
+
+          <div class="timeline-line">
+            <span></span>
+          </div>
+
+          <div class="timeline-content">
+
+            <p class="experience-type">
+              Internship
+            </p>
+
+            <h3>
+              Research & Insights Intern
+            </h3>
+
+            <p class="experience-company">
+              New Metrics
+            </p>
+
+            <p>
+              Add a short description of your internship here.
+              Describe the type of research, data, analysis, or
+              business work you were involved in.
+            </p>
+
+            <ul class="experience-list">
+
+              <li>
+                Add your main responsibility here.
+              </li>
+
+              <li>
+                Add another responsibility or achievement here.
+              </li>
+
+              <li>
+                Add the tools or methods you used here.
+              </li>
+
+            </ul>
+
+          </div>
+
+        </article>
+
+
+        <!--
+          ADD MORE EXPERIENCE HERE IF NEEDED
+
+          Copy the entire timeline-item block and change
+          the information.
+        -->
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================================
+         EDUCATION & CERTIFICATIONS
+         ============================================ -->
+
+    <section id="education" class="section education">
+
+      <div class="section-head">
+
+        <p class="section-label">
+          Background
+        </p>
+
+        <h2>
+          Education & Certifications
+        </h2>
+
+        <p>
+          Academic background and professional learning.
+        </p>
+
+      </div>
+
+
+      <div class="education-layout">
+
+
+        <!-- EDUCATION -->
+
+        <div class="education-column">
+
+          <h3 class="subsection-title">
+            Education
+          </h3>
+
+
+          <article class="education-card reveal-item">
+
+            <div class="education-year">
+              2022 — 2026
+            </div>
+
+            <div>
+
+              <p class="education-type">
+                Bachelor's Degree
+              </p>
+
+              <h3>
+                Computer Science
+              </h3>
+
+              <p class="education-place">
+                Lebanese University
+              </p>
+
+              <p>
+                Computer Science studies covering software development,
+                algorithms, databases, artificial intelligence,
+                computer systems, and related technologies.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <!-- CERTIFICATIONS -->
+
+        <div class="education-column">
+
+          <h3 class="subsection-title">
+            Certifications
+          </h3>
+
+
+          <!-- CERTIFICATE 1 -->
+
+          <article class="certificate-card reveal-item">
+
+            <div class="certificate-icon">
+              ↗
+            </div>
+
+            <div>
+
+              <p class="certificate-year">
+                2026
+              </p>
+
+              <h3>
+                Certification Name
+              </h3>
+
+              <p>
+                Issuing Organization
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- CERTIFICATE 2 -->
+
+          <article class="certificate-card reveal-item">
+
+            <div class="certificate-icon">
+              ↗
+            </div>
+
+            <div>
+
+              <p class="certificate-year">
+                2026
+              </p>
+
+              <h3>
+                Certification Name
+              </h3>
+
+              <p>
+                Issuing Organization
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!--
+            Add more certificates by copying
+            a certificate-card.
+          -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================================
+         PROJECTS
+         ============================================ -->
+
+    <section id="work" class="section work">
+
+      <div class="section-head">
+
+        <p class="section-label">
+          Portfolio
+        </p>
+
+        <h2>
+          Selected Projects
+        </h2>
+
+        <p>
+          A few things I've shipped, broken, and shipped again.
+        </p>
+
+      </div>
+
 
       <div class="projects">
 
-        <article class="project" data-mesh="mesh-1">
+
+        <!-- PROJECT 1 -->
+
+        <article
+          class="project"
+          data-mesh="mesh-1"
+        >
+
           <div class="project-visual">
+
             <div class="device">
-              <div class="device-bar"><span></span><span></span><span></span></div>
-              <div class="device-screen mesh-1">
-                <div class="fake-row"></div>
-                <div class="fake-row short"></div>
-                <div class="fake-grid">
-                  <div></div><div></div><div></div><div></div>
-                </div>
+
+              <div class="device-bar">
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
+
+              <div class="device-screen mesh-1">
+
+                <div class="fake-row"></div>
+
+                <div class="fake-row short"></div>
+
+                <div class="fake-grid">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+
+              </div>
+
             </div>
+
           </div>
+
+
           <div class="project-info">
-            <p class="project-tag">Full-stack · Booking platform</p>
-            <h3>Music Hub Lebanon</h3>
-            <p>
-              A room booking system built for a DJ and music production
-              academy — studio scheduling with real-time overlap validation,
-              an ASP.NET Core API, and a dark-themed React front end
-              students actually enjoy using.
+
+            <p class="project-tag">
+              Full-stack · Booking platform
             </p>
+
+            <h3>
+              Music Hub Lebanon
+            </h3>
+
+            <p>
+              A room booking system built for a DJ and music
+              production academy — studio scheduling with real-time
+              overlap validation, an ASP.NET Core API, and a
+              dark-themed React front end.
+            </p>
+
             <ul class="stack">
+
               <li>ASP.NET Core</li>
               <li>React</li>
               <li>SQL Server</li>
+
             </ul>
-            <button class="details-btn" data-open="p1">View details</button>
+
+            <button
+              class="details-btn"
+              data-open="p1"
+            >
+              View details
+            </button>
+
           </div>
+
         </article>
 
-        <article class="project reverse" data-mesh="mesh-2">
+
+        <!-- PROJECT 2 -->
+
+        <article
+          class="project reverse"
+          data-mesh="mesh-2"
+        >
+
           <div class="project-visual">
+
             <div class="device">
-              <div class="device-bar"><span></span><span></span><span></span></div>
+
+              <div class="device-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
               <div class="device-screen mesh-2">
+
                 <div class="fake-row"></div>
+
                 <div class="fake-row short"></div>
+
                 <div class="fake-grid">
-                  <div></div><div></div><div></div><div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
+
           <div class="project-info">
-            <!-- TODO: replace with the real one-line summary of BIsmart -->
-            <p class="project-tag">Data · Business intelligence</p>
-            <h3>BIsmart</h3>
-            <p>
-              A business intelligence project focused on turning raw
-              operational data into decisions a small business can actually
-              act on — replace this line with what BIsmart really does.
+
+            <p class="project-tag">
+              Business intelligence · Full-stack
             </p>
+
+            <h3>
+              BIsmart
+            </h3>
+
+            <p>
+              A web-based business intelligence platform designed
+              to help electricity retailers manage customers,
+              meters, readings, billing, and operational data.
+            </p>
+
             <ul class="stack">
-              <li>SQL</li>
-              <li>Python</li>
+
+              <li>React</li>
+              <li>ASP.NET Core</li>
+              <li>SQL Server</li>
+              <li>n8n</li>
+
             </ul>
-            <button class="details-btn" data-open="p2">View details</button>
+
+            <button
+              class="details-btn"
+              data-open="p2"
+            >
+              View details
+            </button>
+
           </div>
+
         </article>
 
-        <article class="project" data-mesh="mesh-3">
+
+        <!-- PROJECT 3 -->
+
+        <article
+          class="project"
+          data-mesh="mesh-3"
+        >
+
           <div class="project-visual">
+
             <div class="device">
-              <div class="device-bar"><span></span><span></span><span></span></div>
+
+              <div class="device-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
               <div class="device-screen mesh-3">
+
                 <div class="fake-row"></div>
+
                 <div class="fake-row short"></div>
+
                 <div class="fake-grid">
-                  <div></div><div></div><div></div><div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
+
           <div class="project-info">
-            <!-- TODO: replace with the real one-line summary of CineSearch -->
-            <p class="project-tag">Web app · Search</p>
-            <h3>CineSearch</h3>
-            <p>
-              A movie discovery app for finding what to watch next —
-              replace this line with what CineSearch really does and how
-              it's built.
+
+            <p class="project-tag">
+              Web app · API integration
             </p>
+
+            <h3>
+              CineSearch
+            </h3>
+
+            <p>
+              A movie discovery application that allows users to
+              search for movies and explore information retrieved
+              through an external movie API.
+            </p>
+
             <ul class="stack">
+
               <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>API integration</li>
+
             </ul>
-            <button class="details-btn" data-open="p3">View details</button>
+
+            <button
+              class="details-btn"
+              data-open="p3"
+            >
+              View details
+            </button>
+
           </div>
+
         </article>
 
-        <article class="project reverse" data-mesh="mesh-4">
+
+        <!-- PROJECT 4 -->
+
+        <article
+          class="project reverse"
+          data-mesh="mesh-4"
+        >
+
           <div class="project-visual">
+
             <div class="device">
-              <div class="device-bar"><span></span><span></span><span></span></div>
-              <div class="device-screen mesh-4">
-                <div class="fake-row"></div>
-                <div class="fake-row short"></div>
-                <div class="fake-grid">
-                  <div></div><div></div><div></div><div></div>
-                </div>
+
+              <div class="device-bar">
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
+
+              <div class="device-screen mesh-4">
+
+                <div class="fake-row"></div>
+
+                <div class="fake-row short"></div>
+
+                <div class="fake-grid">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+
+              </div>
+
             </div>
+
           </div>
+
+
           <div class="project-info">
-            <p class="project-tag">Simulation · Coursework</p>
-            <h3>Crane Load-Swing Control</h3>
-            <p>
-              A Python physics simulation modeling load-swing control on a
-              crane system, with a Pygame animation layer to visualize the
-              controller working in real time.
+
+            <p class="project-tag">
+              Simulation · Coursework
             </p>
+
+            <h3>
+              Crane Load-Swing Control
+            </h3>
+
+            <p>
+              A Python physics simulation modeling load-swing control
+              on a crane system, with a Pygame animation layer to
+              visualize the controller working in real time.
+            </p>
+
             <ul class="stack">
+
               <li>Python</li>
               <li>Pygame</li>
               <li>Control systems</li>
+
             </ul>
-            <button class="details-btn" data-open="p4">View details</button>
+
+            <button
+              class="details-btn"
+              data-open="p4"
+            >
+              View details
+            </button>
+
           </div>
+
         </article>
 
+
       </div>
+
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section about">
-      <div class="about-grid">
-        <h2>About</h2>
-        <div class="about-copy">
-          <p>
-            I'm a third-year computer science student at the Lebanese
-            University, working full-stack across ASP.NET Core, React, and
-            SQL Server. I like projects with a real user on the other end —
-            a studio owner trying to stop double-booking a room, a shop
-            trying to understand its own numbers.
-          </p>
-          <p>
-            Outside of coursework, I work sales and customer support for
-            musical instruments and audio gear. It's given me an
-            unreasonably specific appreciation for margins, inventory, and
-            the gap between a good product and a product that actually
-            sells — which is most of why I'm drawn to data analytics and AI
-            automation now, not just writing more front end.
-          </p>
-        </div>
-      </div>
-    </section>
 
-    <!-- SKILLS -->
+    <!-- ============================================
+         SKILLS
+         ============================================ -->
+
     <section id="skills" class="section skills">
+
       <div class="section-head">
-        <h2>Tools I reach for</h2>
-        <p>Hover a group to see how it's used.</p>
+
+        <p class="section-label">
+          Technical
+        </p>
+
+        <h2>
+          Tools I reach for
+        </h2>
+
+        <p>
+          Technologies and tools I use to build, analyze,
+          automate, and deploy.
+        </p>
+
       </div>
+
+
       <div class="skill-groups">
-        <div class="skill-group" data-desc="APIs, data models, and the logic that keeps a booking system honest.">
-          <h3>Backend</h3>
+
+
+        <div
+          class="skill-group"
+          data-desc="APIs, databases, business logic, and server-side applications."
+        >
+
+          <h3>
+            Backend
+          </h3>
+
           <div class="pills">
+
             <span>ASP.NET Core</span>
             <span>SQL Server</span>
             <span>Python</span>
+            <span>REST APIs</span>
+
           </div>
+
         </div>
-        <div class="skill-group" data-desc="Interfaces people actually want to open twice.">
-          <h3>Frontend</h3>
+
+
+        <div
+          class="skill-group"
+          data-desc="Interfaces and web applications focused on usability and clean design."
+        >
+
+          <h3>
+            Frontend
+          </h3>
+
           <div class="pills">
+
             <span>React</span>
             <span>JavaScript</span>
-            <span>HTML &amp; CSS</span>
+            <span>HTML</span>
+            <span>CSS</span>
+
           </div>
+
         </div>
-        <div class="skill-group" data-desc="Shipping and connecting things without babysitting them.">
-          <h3>Automation &amp; DevOps</h3>
+
+
+        <div
+          class="skill-group"
+          data-desc="Connecting systems, automating repetitive work, and managing code."
+        >
+
+          <h3>
+            Automation & DevOps
+          </h3>
+
           <div class="pills">
+
             <span>Docker</span>
             <span>n8n</span>
             <span>Git</span>
+            <span>GitHub</span>
+
           </div>
+
         </div>
-        <div class="skill-group" data-desc="Where I'm putting most of my learning time right now.">
-          <h3>Currently exploring</h3>
+
+
+        <div
+          class="skill-group"
+          data-desc="Technologies I'm developing deeper expertise in."
+        >
+
+          <h3>
+            Currently exploring
+          </h3>
+
           <div class="pills">
-            <span>Data analytics</span>
-            <span>AI automation</span>
-            <span>E-commerce systems</span>
+
+            <span>Data Analytics</span>
+            <span>Power BI</span>
+            <span>AI Automation</span>
+            <span>E-commerce</span>
+
           </div>
+
         </div>
+
+
       </div>
+
     </section>
 
-    <!-- CONTACT -->
+
+    <!-- ============================================
+         CONTACT
+         ============================================ -->
+
     <section id="contact" class="section contact">
-      <h2>Let's build something.</h2>
-      <p>Open to internships, freelance work, and interesting problems.</p>
-      <!-- TODO: replace with your real email -->
-      <a href="mailto:your.email@example.com" class="mail-link">your.email@example.com</a>
-      <div class="social-row">
-        <!-- TODO: replace with your real profile links -->
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
+
+      <p class="section-label">
+        Get in touch
+      </p>
+
+      <h2>
+        Let's build something.
+      </h2>
+
+      <p>
+        Open to internships, freelance work, and interesting problems.
+      </p>
+
+      <!-- Replace with your actual email -->
+      <a
+        href="mailto:your.email@example.com"
+        class="mail-link"
+      >
+        ghadyfrem10@gmail.com
+      </a>
+
+
+     
+<div class="social-row">
+
+  <!-- GitHub -->
+
+  <a
+    href="https://github.com/GhadiFrem"
+    target="_blank"
+    rel="noopener"
+    aria-label="GitHub"
+    class="social-icon"
+  >
+
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+
+      <path
+        d="M12 2C6.48 2 2 6.58 2 12.24c0 4.52 2.87 8.36 6.84 9.71.5.1.68-.22.68-.49
+        0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.22-3.37-1.22-.45-1.18-1.11-1.49-1.11-1.49
+        -.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.58 2.36 1.12 2.94.86
+        .09-.67.35-1.12.64-1.38-2.22-.26-4.55-1.14-4.55-5.05 0-1.12.39-2.03 1.02-2.75
+        -.1-.26-.44-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.1 9.1 0 0 1 5-.01c1.91-1.33
+        2.75-1.05 2.75-1.05.54 1.41.2 2.45.1 2.71.63.72 1.02 1.63 1.02 2.75
+        0 3.92-2.34 4.78-4.57 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81
+        0 .27.18.59.69.49A10.24 10.24 0 0 0 22 12.24C22 6.58 17.52 2 12 2Z"
+      />
+
+    </svg>
+
+  </a>
+
+
+  <!-- LinkedIn -->
+
+  <a
+    href="https://linkedin.com/in/ghadi-frem-7bb5822a1"
+    target="_blank"
+    rel="noopener"
+    aria-label="LinkedIn"
+    class="social-icon"
+  >
+
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+
+      <path
+        d="M5.16 3.5A2.16 2.16 0 1 1 5.16 7.82 2.16 2.16 0 0 1 5.16 3.5ZM3.3 8.7h3.72V20.5H3.3V8.7Zm5.97 0h3.57v1.61h.05c.5-.93 1.72-1.91 3.54-1.91
+        3.79 0 4.49 2.49 4.49 5.73v6.37h-3.72v-5.65c0-1.35-.03-3.09-1.88-3.09
+        -1.88 0-2.17 1.47-2.17 2.99v5.75H9.27V8.7Z"
+      />
+
+    </svg>
+
+  </a>
+
+</div>
+```
+
+
     </section>
+
 
   </main>
 
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+
   <footer class="site-footer">
-    <span>Ghadi Frem</span>
+
+    <span>
+      Ghadi Frem
+    </span>
+
     <span id="year"></span>
-    <a href="#home">Back to top</a>
+
+    <a href="#home">
+      Back to top
+    </a>
+
   </footer>
 
-  <!-- project detail overlay -->
-  <div class="overlay" id="overlay">
+
+  <!-- ============================================
+       PROJECT DETAIL OVERLAY
+       ============================================ -->
+
+  <div
+    class="overlay"
+    id="overlay"
+  >
+
     <div class="overlay-card">
-      <button class="overlay-close" id="overlayClose" aria-label="Close">&times;</button>
-      <div class="overlay-body" id="overlayBody"></div>
+
+      <button
+        class="overlay-close"
+        id="overlayClose"
+        aria-label="Close"
+      >
+        &times;
+      </button>
+
+      <div
+        class="overlay-body"
+        id="overlayBody"
+      ></div>
+
     </div>
+
   </div>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
